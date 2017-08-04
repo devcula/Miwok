@@ -1,5 +1,6 @@
 package com.example.android.miwok;
 
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
@@ -27,5 +28,9 @@ public class PhrasesActivity extends AppCompatActivity {
         WordAdapter itemsAdapter=new WordAdapter(this,R.layout.list_items_view,words,R.color.category_phrases);
         ListView listview=(ListView) findViewById(R.id.listview);
         listview.setAdapter(itemsAdapter);
+    }
+    @Override
+    protected void onStop() {
+        super.onStop();
     }
 }

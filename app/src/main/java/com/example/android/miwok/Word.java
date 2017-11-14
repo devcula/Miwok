@@ -4,7 +4,6 @@ package com.example.android.miwok;
  * Created by Abhishek Prasad on 27-Jul-17.
  */
 
-//Adding this line just to check project sync
 
 public class Word {
     private String mMiwokTranslation;

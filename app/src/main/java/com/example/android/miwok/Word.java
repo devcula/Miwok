@@ -3,7 +3,7 @@ package com.example.android.miwok;
 /**
  * Created by Abhishek Prasad on 27-Jul-17.
  */
-
+//Just verifying the collabration
 
 public class Word {
     private String mMiwokTranslation;
